@@ -31,14 +31,14 @@ platform :ios do
     produce(
         username: ENV["APPLE_ID"],
         app_identifier: ENV["APPLE_APP_IDENTIFIER_BETA"],
-        app_name: "Fastlane App ID #{ENV["APPLE_APP_IDENTIFIER_BETA"]}",
+        app_name: "appname Beta",
         skip_itc: true
     )
 
     produce(
         username: ENV["APPLE_ID"],
         app_identifier: ENV["APPLE_APP_IDENTIFIER"],
-        app_name: "Fastlane App ID #{ENV["APPLE_APP_IDENTIFIER"]}",
+        app_name: "appname",
         skip_itc: true
     )
 
