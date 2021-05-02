@@ -2,3 +2,4 @@
 sed -i '' "s/appname/$1/g" project.yml
 sed -i '' "s/appname/$1/g" Podfile
 sed -i '' "s/appname/$1/g" Sources/*.swift
+sed -i '' "s/appname/$1/g" fastlane/.env
