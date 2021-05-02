@@ -53,13 +53,13 @@ targets:
         DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
       configs: 
         Development:
-          PRODUCT_BUNDLE_IDENTIFIER: "com.tmsaeapp.appname.beta"
+          PRODUCT_BUNDLE_IDENTIFIER: "com.tmsae.appname.beta"
           CODE_SIGN_IDENTITY: iPhone Developer 
-          PROVISIONING_PROFILE_SPECIFIER: match Development com.tmsaeapp.appname.beta
+          PROVISIONING_PROFILE_SPECIFIER: match Development com.tmsae.appname.beta
         AppStore: 
-          PRODUCT_BUNDLE_IDENTIFIER: "com.tmsaeapp.appname"
+          PRODUCT_BUNDLE_IDENTIFIER: "com.tmsae.appname"
           CODE_SIGN_IDENTITY: iPhone Distribution
-          PROVISIONING_PROFILE_SPECIFIER: match AppStore com.tmsaeapp.appname
+          PROVISIONING_PROFILE_SPECIFIER: match AppStore com.tmsae.appname
     sources:
       - Sources
       - path: 'Supporting Files'
