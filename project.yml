@@ -53,9 +53,9 @@ targets:
         DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
       configs: 
         Development:
-          PRODUCT_BUNDLE_IDENTIFIER: "com.tmsae.appname.beta"
+          PRODUCT_BUNDLE_IDENTIFIER: "com.tmsae.appname"
           CODE_SIGN_IDENTITY: iPhone Developer 
-          PROVISIONING_PROFILE_SPECIFIER: match Development com.tmsae.appname.beta
+          PROVISIONING_PROFILE_SPECIFIER: match Development com.tmsae.appname
         AppStore: 
           PRODUCT_BUNDLE_IDENTIFIER: "com.tmsae.appname"
           CODE_SIGN_IDENTITY: iPhone Distribution
